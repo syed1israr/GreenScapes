@@ -1,0 +1,30 @@
+*{
+  font-family:Jost;
+}
+.logo{
+  width:100px;
+  height:100px;
+}
+.Header{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+}
+.Footer{
+  margin:20px 20px;
+  margin-left:20px;
+}
+
+.Header{
+  margin:20px 20px;
+}
+.Body2{
+  width:100%;
+  height:40%;
+  background-Color:black;
+  margin:20px 20px;
+  left:20px;
+}
+
+

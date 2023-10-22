@@ -1,0 +1,95 @@
+body2{
+    margin-top:20px;    
+    margin:20px;
+
+}
+
+
+input{
+    width:80%;
+    height:20px;
+    margin-left:70px;
+    
+ }
+.footer-logo {
+    margin-left:37vw;
+}
+ul{
+    margin-left:40px;
+    display:flex;
+    align-items:centre;
+    justify-content:space-around;
+  
+  }
+ ul>li{
+    margin-left:40px;
+    list-style:none;
+    margin:10px;
+}
+.ab{
+    margin:12px 20px;
+    height:200px;
+    width:200px;
+    position:relativel;
+    border-radius:20px;
+  }
+.footer-contact{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+address{
+    display:flex;
+
+}
+.Menu_tag{
+   
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:6%;
+
+}
+.footer-content{
+    padding:0px 20px;
+}
+    
+.btn{
+    width:20%;
+    height:5vh;
+    background-Color:green;
+    border-radius:20px;
+    color:white;
+
+
+}
+.ab{
+    /* display:none; */
+ 
+
+}
+.card{
+    margin-left:60px;
+    position:relativel;
+    width:600px;
+    height:600px;
+    border-radius:20px;
+    box-shadow:20px 20px 20px green;
+    
+}
+
+input{
+    border:2px solid black;
+    border-radius: 20px;
+    color: blue;
+    padding:7px;
+    background-Color:baige;
+}
+.btn1{
+    margin:2px 20px;
+    padding:10px 20px;
+    width:6%;
+    height:2%;
+    border-radius:50px;
+    background-Color:blue;
+}
