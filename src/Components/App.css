@@ -1,9 +1,15 @@
-body2{
-    margin-top:20px;    
+
+.body2{
     margin:20px;
+    padding:20px;
+    padding-left:50px;
 
 }
 
+.Menu_tag{
+    margin-top:20px;
+    display:flex;
+}
 
 input{
     width:80%;
@@ -13,6 +19,12 @@ input{
  }
 .footer-logo {
     margin-left:37vw;
+    
+}
+.logo{
+    
+    border-radius:20px;
+    box-shadow:20px 20px 20px #f0fff0;
 }
 ul{
     margin-left:40px;
@@ -26,12 +38,16 @@ ul{
     list-style:none;
     margin:10px;
 }
+
 .ab{
     margin:12px 20px;
-    height:200px;
-    width:200px;
+    height:400px;
+    width:450px;
     position:relativel;
     border-radius:20px;
+    object-fit:cover;
+
+
   }
 .footer-contact{
     display:flex;
@@ -43,12 +59,10 @@ address{
 
 }
 .Menu_tag{
-   
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap:wrap;
-    gap:6%;
-
+    gap:20px;
 }
 .footer-content{
     padding:0px 20px;
@@ -68,14 +82,22 @@ address{
  
 
 }
-.card{
-    margin-left:60px;
-    position:relativel;
-    width:600px;
-    height:600px;
-    border-radius:20px;
-    box-shadow:20px 20px 20px green;
-    
+.btn2{
+    width:100%;
+    display:flex;
+    gap:30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   
+    position: relative;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow:  10px 10px 10px 10px green;
+    overflow: hidden;
 }
 
 input{
