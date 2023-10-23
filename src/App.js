@@ -1,8 +1,9 @@
-import React from 'react';
+
 import './App.css';
 import Header from './Components/Header';
 import Body2 from './Components/Body';
-import Footer from './Components/footer';
+  import Footer from './Components/footer' // Corrected the import statement and filename
+
 
 
 function App() {
@@ -10,8 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Body2 />
-      <Footer/>
-      
+      <Footer />
     </div>
   );
 }
