@@ -7,19 +7,16 @@
   width:100px;
   height:100px;
 }
-.Header{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
 
-}
 .Footer{
   margin:20px 20px;
   margin-left:20px;
 }
 
 .Header{
-  margin:20px 20px;
+  margin:0;
+  padding:10px 10px;
+
 }
 .Body2{
   width:100%;
