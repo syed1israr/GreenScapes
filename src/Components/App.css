@@ -50,7 +50,7 @@ ul>li>a {
     color: black;
 }
 .Header>ul>li>a:hover{
-    color: rgb(252, 0, 0);
+    color:#15b015;
     padding-right: 8px;
     transition: all 0.3s ease;
    
@@ -93,6 +93,10 @@ address {
     border-radius: 20px;
     color: white;
 }
+.btn:hover{
+  transition: all 0.3s ease-in-out;
+  color: red;
+}
 
 
 
@@ -115,12 +119,19 @@ address {
 }
 
 input {
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue;
-    padding: 7px;
-    background-color: beige; /* Corrected typo 'background-Color' to 'background-color' */
+  border: 2px solid black;
+  border-radius: 20px;
+  color: blue;
+  padding: 7px;
+  background-color: beige; /* Corrected typo 'background-Color' to 'background-color' */
+  transform: scale(1);
+  
 }
+input:hover {
+  transition: all 0.3s ease-in-out; /* Added 's' to '0.3' for seconds */
+  transform: scale(1.04);
+}
+
 
 .btn1 {
     margin: 2px 20px;
@@ -129,12 +140,17 @@ input {
     height: 1.5%;
     border-radius: 50px;
     background-color: #97c1ce;
+    
+}
+.btn1:hover{
+  transition: all 0.3s ease-in-out;
+  color: red;
 }
 
 
 
 body{
-  line-height: 1.5;
+
   font-family: jost;
 }
 *{
@@ -196,7 +212,8 @@ ul{
   transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-  color: black;
+  cursor: pointer;
+  color: #15b015;
   padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -212,7 +229,7 @@ ul{
   transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-  color: #24262b;
+  color: rgb(252, 0, 0);
   background-color: #ffffff;
 }
 
