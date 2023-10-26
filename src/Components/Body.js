@@ -5,12 +5,9 @@ import { useEffect, useRef } from 'react';
 import { TweenMax } from 'gsap/gsap-core';
 
 function Body2() {
-  let anim=useRef(null);
-  useEffect(()=>{
-    TweenMax.fromTo(anim, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
-  },[])
+
   return (
-    <div className='body2' ref={anim}>
+    <div className='body2' >
       <input type="text" placeholder="Search Your Favorite Dish!" />
       <button className='btn1'>Search</button>
       <div className='Menu_tag'>
