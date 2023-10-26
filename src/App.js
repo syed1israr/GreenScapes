@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, {useEffect } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Body2 from './Components/Body';

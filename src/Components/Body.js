@@ -1,8 +1,7 @@
 import '././App.css'
 import Card from './card';
  import { restaurants } from '../Utils/List'; // Replace with the correct path to your data file
-import { useEffect, useRef } from 'react';
-import { TweenMax } from 'gsap/gsap-core';
+
 
 function Body2() {
 

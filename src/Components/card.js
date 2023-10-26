@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react';
-import { TweenMax,Power3 } from 'gsap';
+import React, {useEffect } from 'react';
+import { TweenMax} from 'gsap';
 
 
 const Card = ({ name, description,image ,review,price}) => {

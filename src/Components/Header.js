@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react';
-import { TweenMax } from 'gsap';
+import React from 'react';
+
 
 function Header() {
   // const headeranim = useRef(null);
