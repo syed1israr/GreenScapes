@@ -9,7 +9,7 @@ const Card = ({ name, description,image ,review,price}) => {
   }, []);
   return (
     <div className="card"  >
-      {/* Your card content here */}
+
       <img className='ab' src={image} alt="Card_Image" />
       <h2>{name}</h2>
       <p>{description}</p>

@@ -1,6 +1,6 @@
 import '././App.css'
 import Card from './card';
- import { restaurants } from '../Utils/List'; // Replace with the correct path to your data file
+ import { restaurants } from '../Utils/List'; 
 
 
 function Body2() {
@@ -12,7 +12,7 @@ function Body2() {
       <div className='Menu_tag'>
         {restaurants.map((restaurant) => (
           <Card 
-            key={restaurant.id} // Ensure each card has a unique key
+            key={restaurant.id} 
             name={restaurant.dishName}
             description={restaurant.description}
             image={restaurant.image}
