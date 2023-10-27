@@ -5,6 +5,7 @@ import Body2 from './Components/Body';
 import Footer from './Components/footer' 
 import { TweenMax } from 'gsap/gsap-core';
 import gsap from 'gsap';
+import crs from './cursor.png'
 
 
 function App() {
@@ -44,7 +45,7 @@ function handleMouseMovement(event) {
   return (
     <div className="App">
           <div className='Minicircle '>
-            <img src="https://w7.pngwing.com/pngs/746/226/png-transparent-hamburger-patty-steak-burger-cheeseburger-bigceks-burger-burger-and-sandwich-miscellaneous-food-cheeseburger-thumbnail.png" alt="" srcset="" />
+            <img src={crs} alt="" srcset="" />
           </div>
       <Cur/>
       <Header   />
