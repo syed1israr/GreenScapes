@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './Logo.png'; // Corrected the import statement
+import logo from './Logo.png'; 
 
 function Header() {
   return (
     <div className='Header'>
-      <img src={logo} className='logo' alt='Logo' /> {/* Used the 'logo' variable */}
+      <img src={logo} className='logo' alt='Logo' /> 
       <ul>
         <li><a href="https://www.linkedin.com/in/syed-israr/">LinkedIn</a></li>
         <li><a href="https://github.com/syed1israr">Github</a></li>
