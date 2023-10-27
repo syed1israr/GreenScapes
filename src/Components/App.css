@@ -63,6 +63,7 @@ input {
 }
 .Header>ul>li>a:hover{
     padding-right: 8px;
+    color: #15b015;
     transition: all 0.3s ease;
    
 }
