@@ -7,7 +7,7 @@ function Body2() {
 
   return (
     <div className='body2' >
-      <input type="text" placeholder="Search Your Favorite Dish!" />
+      <input className='search' type="text" placeholder="Search Your Favorite Dish!" />
       <button className='btn1'>Search</button>
       <div className='Menu_tag'>
         {restaurants.map((restaurant) => (
@@ -18,6 +18,7 @@ function Body2() {
             image={restaurant.image}
             review={restaurant.review}
             price={restaurant.price}
+            time={restaurant.time}
           />
         ))}
       </div>
