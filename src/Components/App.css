@@ -1,7 +1,12 @@
 .body2 {
+     width: 100%;
     margin: 20px;
     padding: 20px;
     padding-left: 50px;
+    background-color: #EEEDE9;
+    box-shadow: 0px 10px 10px  rgba(27, 170, 27, 0.385);
+    margin-left: 5px;
+    border-radius: 10px;
 }
 
 .Menu_tag {
@@ -21,6 +26,8 @@ input {
 }
 
 .logo {
+    object-fit: cover;
+    width: 400px;
     border-radius: 20px;
     
 }
@@ -32,8 +39,9 @@ input {
     margin: 0 50px;
     width: 100%;
     margin-left: 0px;
-    box-shadow: 0px 10px 10px  rgba(86, 85, 85, 0.385);
+    box-shadow: 0px 10px 10px  rgba(27, 170, 27, 0.385);
    position: -webkit-sticky;
+   background-color: #F1EFE7;
  
 }
 
@@ -42,31 +50,31 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-    
-    
+    background-color: #EEEDE9; 
 }
 .logo{
   margin-left: 60px;
-  
+  background-color: #EEEDE9;
   
 }
 
 .Header>ul>li {
     list-style: none;
+    background-color: #EEEDE9;
     margin: 10px;
    
 }
 
 .Header>ul>li>a {
     text-decoration: none;
-  
+    background-color: #EEEDE9;
     color: black;
 }
 .Header>ul>li>a:hover{
     padding-right: 8px;
     color: #15b015;
     transition: all 0.3s ease;
+      background-color: #EEEDE9;
    
 }
 
@@ -137,6 +145,7 @@ address {
     height: 400px;
     box-shadow: 2px 2px 2px 2px #d3d5d3;
     border-radius: 20px;
+    background-color: #EBEBEBEB;
 
    
     overflow: hidden;
