@@ -2,7 +2,9 @@
   font-family: Jost;
   background-color: #EBEBEBEB;
 }
-
+.App{
+  overflow-x: hidden;
+}
 
 .logo{
   width:100px;
