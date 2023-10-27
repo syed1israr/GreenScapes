@@ -121,9 +121,15 @@ address {
     gap: 30px;
     width: 300px;
     height: 400px;
+    box-shadow: 2px 2px 2px 2px #d3d5d3;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px #96FC96;
+
+   
     overflow: hidden;
+}
+.card:hover{
+  box-shadow: 5px 5px 5px 5px #96FC96;
+  transition:  all 0.3s  ease-in-out;
 }
 
 input {
@@ -131,13 +137,15 @@ input {
   border-radius: 20px;
   color: blue;
   padding: 7px;
-  background-color: beige; /* Corrected typo 'background-Color' to 'background-color' */
+  background-color: beige;
   transform: scale(1);
   
 }
 input:hover {
-  transition: all 0.3s ease-in-out; /* Added 's' to '0.3' for seconds */
-  transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: 0px 5px   #96FC96;
+  transition:  all 0.3s  ease-in-out;
 }
 
 
@@ -151,8 +159,12 @@ input:hover {
     
 }
 .btn1:hover{
-  transition: all 0.3s ease-in-out;
+
   color: red;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.04);
+  box-shadow: 0px 5px   #96FC96;
+  transition:  all 0.3s  ease-in-out;
 }
 
 .title{
