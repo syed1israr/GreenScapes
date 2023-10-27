@@ -6,7 +6,7 @@ export const restaurants = [
         image:"https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHVsYW98ZW58MHx8MHx8fDA%3D",
         review:"4.5",
         price:"$25",
-        time:"45",
+        time:"160",
     },
     {
         id: "2",
@@ -16,7 +16,7 @@ export const restaurants = [
         image:"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlra2F8ZW58MHx8MHx8fDA%3D",
         review:"3.2",
         price:"$30",
-        time:"45",
+        time:"65",
 
     },
     {
@@ -27,7 +27,7 @@ export const restaurants = [
         image:"https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXV0dG9uJTIwQ3Vycnl8ZW58MHx8MHx8fDA%3D",
         review:"4.0",
         price:"$12",
-        time:"45",
+        time:"76",
     },
     {
         id: "4",
@@ -37,7 +37,7 @@ export const restaurants = [
         image:"https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxlYWYlMjBkaXNofGVufDB8fDB8fHww",
         review:"5.0",
         price:"$32",
-        time:"45",
+        time:"30",
     },
     {
         id: "5",
@@ -57,7 +57,7 @@ export const restaurants = [
         image:"https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGFzdGElMjBDYXJib25hcmF8ZW58MHx8MHx8fDA%3D",
         review:"3.9",
         price:"$10",
-        time:"45",
+        time:"92",
     },
     {
         id: "7",

@@ -3,8 +3,10 @@ import { TweenMax} from 'gsap';
 
 
 const Card = ({ name, description,image ,review,price,time}) => {
+
+  
   useEffect(() => {
-    const card = document.querySelector(".card");
+    const card = document.querySelectorAll(".card");
     TweenMax.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
   }, []);
   return (
