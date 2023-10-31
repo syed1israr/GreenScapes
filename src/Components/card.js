@@ -13,7 +13,8 @@ const Card = ({ name, description,image ,review,price,time}) => {
     <div className="card"  >
 
       <img className='ab' src={image} alt="Card_Image" />
-      <h2 className='title'>{name}</h2>
+  
+        <h2 className='title'>{name}</h2>
       <p className='des'>{description}</p>
       <div className='btn2'>
       <button className='btn'>Buy Now</button>
