@@ -50,11 +50,11 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #EEEDE9; 
+    background-color: #EBEBEB; 
 }
 .logo{
   margin-left: 60px;
-  background-color: #EEEDE9;
+  background-color: #EBEBEB;
   
 }
 
@@ -118,9 +118,10 @@ address {
 .btn {
     width: 8vw;
     height: 5vh;
-    background-color: green; 
-    border-radius: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px #d3d5d3;
+    border: 0px;
+
 }
 .btn:hover{
   transition: all 0.3s ease-in-out;
@@ -130,6 +131,7 @@ address {
 
 
 .btn2 {
+  margin-left: 20px;
     width: 100%;
     display: flex;
     gap: 30px;
