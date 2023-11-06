@@ -5,7 +5,7 @@ import Body2 from './Components/Body';
 import Footer from './Components/footer' 
 import { TweenMax } from 'gsap/gsap-core';
 import gsap from 'gsap';
-import crs from './cursor.png'
+
 
 
 function App() {
@@ -45,7 +45,7 @@ function handleMouseMovement(event) {
   return (
     <div className="App">
           <div className='Minicircle '>
-            <img src={crs} alt="" srcset="" />
+        
           </div>
       <Cur/>
       <Header   />
