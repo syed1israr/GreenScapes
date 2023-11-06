@@ -11,7 +11,7 @@ function Body2() {
       <button className='btn1'>Search</button>
       <div className='Menu_tag'>
         {restaurants.map((restaurant) => (
-          <Card 
+          <Card  
             key={restaurant.id} 
             name={restaurant.dishName}
             description={restaurant.description}
