@@ -116,6 +116,42 @@ export const restaurants = [
         price: "$40",
         time: "45"
     },
+    {
+        id: "13",
+        dishName: "Chicken Biryani",
+        description: "- marinated Boneless chicken ",
+        image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2tlbiUyMGJpcnlhbml8ZW58MHx8MHx8fDA%3D",
+        review: "4.8",
+        price: "$30",
+        time: "60",
+      },
+      {
+        id: "14",
+        dishName: "Pizza Margherita",
+        description: "--Classic Italian pizza",
+        image: "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?auto=format&fit=crop&q=80&w=1872&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        review: "4.6",
+        price: "$20",
+        time: "30",
+      },
+     
+    {
+  id: "15",
+  dishName: "Pad Thai",
+  description: "Sweet, savory, nutty",
+  image: "https://plus.unsplash.com/premium_photo-1664472637341-3ec829d1f4df?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGFkJTIwVGhhaXxlbnwwfHwwfHx8MA%3D%3D",
+  review: "4.9",
+  price: "$25",
+  time: "45",
+},
+{
+    id: "16",
+    dishName: "Masala Dosa",
+    description: "Crispy, potatoey, tangy",
+    image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWFzYWxhJTIwRG9zYXxlbnwwfHwwfHx8MA%3D%3D",
+    price: "$15",
+    time: "30",
+  },
 
     
     

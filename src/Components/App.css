@@ -215,6 +215,8 @@ input:hover {
  
 }
 .des{
+  padding-left: 20px;
+  
   font-size: 1.5vh;
   margin-left: -160px;
   background-color: #EDEDED;
