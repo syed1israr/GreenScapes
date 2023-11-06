@@ -15,7 +15,7 @@ function App() {
   }, []);
   function Cur(){
 
-    document.addEventListener('mousemove', handleMouseMovement);
+document.addEventListener('mousemove', handleMouseMovement);
 
 let circleX = 0;
 let circleY = 0;
