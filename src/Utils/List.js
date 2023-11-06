@@ -174,7 +174,7 @@ export const restaurants = [
   {
     id: "19",
     dishName: "Butter Chicken",
-    description: "Creamy and rich Indian curry with tender chicken pieces.",
+    description: "Creamy and rich Indian",
     image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnV0dGVyJTIwQ2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D", // Replace with the actual image URL
     review: "4.6",
     price: "$15",
@@ -183,7 +183,7 @@ export const restaurants = [
   {
     id: "20",
     dishName: "Chicken Tikka Masala",
-    description: "A flavorful and creamy tomato-based curry with succulent pieces of grilled chicken.",
+    description:"God's Gift for Non-veg Lovers",
     image: "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q2hpY2tlbiUyMFRpa2thJTIwTWFzYWxhfGVufDB8fDB8fHww",
     review: "4.8",
     price: "$14",

@@ -45,7 +45,6 @@ function handleMouseMovement(event) {
   return (
     <div className="App">
           <div className='Minicircle '>
-        
           </div>
       <Cur/>
       <Header   />
