@@ -1,16 +1,28 @@
 import '././App.css'
 import Card from './card';
  import { restaurants } from '../Utils/List'; 
-
-
+import { useState } from 'react';
+//hooks are Js functions
 function Body2() {
+  const [Searchtext,setSearchtext]=useState("");
+  const [filterdres,setfilterdres]=useState(restaurants);
+function filterres(){
+ const filterdData=   restaurants.filter((restaurants)=>restaurants.dishName.toLowerCase().includes(Searchtext.toLowerCase()));
+ setfilterdres(filterdData);
+ console.log(filterdData)
+}
+
+
+  
 
   return (
     <div className='body2' >
-      <input className='search' type="text" placeholder="Search Your Favorite Dish!" />
-      <button className='btn1'>Search</button>
+      <input className='search' type="text" placeholder="Search Your Favorite Dish!" 
+      onChange={(e)=> setSearchtext(e.target.value)}/>
+      <button className='btn1'
+      onClick={filterres}>Search</button>
       <div className='Menu_tag'>
-        {restaurants.map((restaurant) => (
+        {filterdres.map((restaurant) => (
           <Card  
             key={restaurant.id} 
             name={restaurant.dishName}
