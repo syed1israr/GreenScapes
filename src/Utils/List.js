@@ -80,7 +80,7 @@ export const restaurants = [
     },
     {
         id: "9",
-        dishName: "-------Spaghetti Bolognese",
+        dishName: "Spaghetti Bolognese",
         description: "italian, Delicious, Pasta",
         image :"https://plus.unsplash.com/premium_photo-1664478291780-0c67f5fb15e6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3BhZ2hldHRpJTIwQm9sb2duZXNlfGVufDB8fDB8fHww",
 
@@ -99,7 +99,7 @@ export const restaurants = [
     },
     {
         id: "11",
-        dishName: "--Chocolate Fondue",
+        dishName: "Chocolate Fondue",
         description: "Sweet, Decadent, Dipping",
         image:"https://images.unsplash.com/photo-1505252929202-c4f39cda4d49?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hvY29sYXRlJTIwRm9uZHVlfGVufDB8fDB8fHww",
 
@@ -119,7 +119,7 @@ export const restaurants = [
     {
         id: "13",
         dishName: "Chicken Biryani",
-        description: "- marinated Boneless chicken ",
+        description: "marinated Boneless chicken ",
         image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2tlbiUyMGJpcnlhbml8ZW58MHx8MHx8fDA%3D",
         review: "4.8",
         price: "$30",
@@ -128,7 +128,7 @@ export const restaurants = [
       {
         id: "14",
         dishName: "Pizza Margherita",
-        description: "--Classic Italian pizza",
+        description: "Classic Italian pizza",
         image: "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?auto=format&fit=crop&q=80&w=1872&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         review: "4.6",
         price: "$20",
