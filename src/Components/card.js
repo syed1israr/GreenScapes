@@ -17,7 +17,7 @@ const Card = ({ name, description,image ,review,price,time}) => {
         <h2 className='title'>{name}</h2>
       <p className='des'>{description}</p>
       <div className='btn2'>
-      <button className='btn'>Buy Now</button>
+      
       <button className='btn'>Add To Cart</button>
       </div>
       <div className='Extra'>
