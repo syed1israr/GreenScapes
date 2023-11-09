@@ -26,7 +26,7 @@ Get started by running the application locally with these simple steps:
     npm start
     ```
    
-The application will be accessible at [http://localhost:3000](http://localhost:3000).
+The application will be accessible at [GreenScapes](https://greenscapes.netlify.app/).
 
 ## Project Structure
 Explore the organized structure of the project, designed for clarity and efficiency:
