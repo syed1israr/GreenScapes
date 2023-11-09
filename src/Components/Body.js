@@ -1,9 +1,16 @@
 import './App.css';
+import { useEffect } from 'react';
 import Card from './card';
 import { restaurants } from '../Utils/List';
 import { useState } from 'react';
+import gsap from 'gsap';
 
 function Body2() {
+  useEffect(() => {
+    const result=document.querySelectorAll(".No_result")
+    gsap.fromTo(result, 0.5, { x: -120, opacity: 0 }, { x: 0, opacity: 1, delay: 0.5 });
+  }, []);
+
   const [searchText, setSearchText] = useState('');
   const [filteredRes, setFilteredRes] = useState(restaurants);
 
@@ -50,7 +57,7 @@ function Body2() {
         ) : (
           <div className="lala">
           <h4 className='No_result'>Chef is Busy Coding :)</h4>
-          <h4 >sorry for disappointment, we will get back to you soon💚💚</h4>
+          <h4 className='disappointment' >sorry for disappointment, we will get back to you soon💚💚</h4>
           </div>
         )}
       </div>

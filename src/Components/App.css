@@ -350,6 +350,9 @@ ul{
 
 }
 .No_result{
-  height: 260px;
+  height: 240px;
   margin-left: 90px;
+}
+.disappointment{
+  margin-left: -10px;
 }
