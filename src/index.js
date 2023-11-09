@@ -5,7 +5,7 @@ import Body2 from './Components/Body'
 import Footer from './Components/footer';
 import { gsap } from 'gsap';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Contact from './Components/Contact';
 
 
@@ -48,23 +48,31 @@ const App =()=> {
     );
   }
 
-  return (
-    <div className="App">
-      <Cursor />
-      <Header />
-      <Body2/>
+  return (  
+   <>
+     <div className="App">
+     <Cursor />
+     <Header />
+      <Outlet/>
       <Footer />
     </div>
+    </>
   );
 }
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-  },
-  {
-    path: "/contact",
-    element: <Contact/>
+    element: <App/>,
+    children:[
+      {
+        path: '/',
+        element :<Body2/>
+      },
+      {
+        path :'/contact',
+        element :<Contact/>
+      }
+    ]
   }
 ]);
 

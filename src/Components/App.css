@@ -203,8 +203,10 @@ input:hover {
     background-color: rgb(32, 85, 58);
     box-shadow: 2px 2px 5px  #dedec4 ;
     border-radius: 6px;
+    background-color: rgba(73, 187, 130, 0.9);
     
 }
+
 .btn1:hover{
   transition: all 0.3s ease-in-out;
   transform: scale(1.06);
