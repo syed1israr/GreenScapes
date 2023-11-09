@@ -1,17 +1,77 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import './App.css';
+import Header from './Components/Header';
+import Body2 from './Components/Body'
+import Footer from './Components/footer';
+import { gsap } from 'gsap';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Contact from './Components/Contact';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+const App =()=> {
+  useEffect(() => {
+    const card = document.querySelector('.App');
+    gsap.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
+  }, []);
+
+  function Cursor() {
+    document.addEventListener('mousemove', handleMouseMovement);
+
+    let circleX = 0;
+    let circleY = 0;
+
+    function updateCirclePosition(x, y) {
+      gsap.to('.Minicircle', {
+        x: x + 30,
+        y: y + 20,
+        duration: 0.3,
+        ease: 'power2.out',
+      });
+    }
+
+    function handleMouseMovement(event) {
+      const x = event.clientX;
+      const y = event.clientY;
+      const xOffset = -10;
+      const yOffset = -10;
+
+      circleX = x + xOffset;
+      circleY = y + yOffset;
+
+      updateCirclePosition(circleX, circleY);
+    }
+
+    return (
+      <div className='Minicircle'>
+      </div>
+    );
+  }
+
+  return (
+    <div className="App">
+      <Cursor />
+      <Header />
+      <Body2/>
+      <Footer />
+    </div>
+  );
+}
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>
+  }
+]);
+
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
