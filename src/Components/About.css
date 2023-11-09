@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.About_h1{
+    font-size: 50px;
+    color: #80DFB1;
+    margin: 20px ;
+    margin-left: 60px;
+}
+.About_p{
+    margin-left: 60px;
+}

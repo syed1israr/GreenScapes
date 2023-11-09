@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Contact from './Components/Contact';
 import Cursor from './Components/Cursor';
+import About from './Components/About';
 
 
 const App =()=> {
@@ -41,6 +42,11 @@ const router = createBrowserRouter([
       {
         path :'/contact',
         element :<Contact/>
+      },
+      {
+        path :"/About",
+        element : <About/>
+  
       }
     ]
   }

@@ -8,7 +8,7 @@ function Header() {
       <img src={logo} className='logo' alt='Logo' />
       <ul>
         <li><Link to="/">HomePage</Link></li>
-        <li><Link to="https://github.com/syed1israr">Github</Link></li>
+        <li><Link to="/About">About</Link></li>
         <li><Link to="https://www.instagram.com/syed_isra.r/">Instagram</Link></li>
         <li>
           <Link to="/contact">Contact Us</Link>
