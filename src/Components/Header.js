@@ -9,7 +9,6 @@ function Header() {
       <ul>
         <li><Link to="/">HomePage</Link></li>
         <li><Link to="/About">About</Link></li>
-        <li><Link to="https://www.instagram.com/syed_isra.r/">Instagram</Link></li>
         <li>
           <Link to="/contact">Contact Us</Link>
         </li>
