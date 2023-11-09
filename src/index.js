@@ -11,6 +11,8 @@ import Cursor from './Components/Cursor';
 import About from './Components/About';
 
 
+
+
 const App =()=> {
   useEffect(() => {
     const card = document.querySelector('.App');
