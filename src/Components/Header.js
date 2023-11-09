@@ -7,7 +7,7 @@ function Header() {
     <div className='Header'>
       <img src={logo} className='logo' alt='Logo' />
       <ul>
-        <li><Link to="https://www.linkedin.com/in/syed-israr/">LinkedIn</Link></li>
+        <li><Link to="/">HomePage</Link></li>
         <li><Link to="https://github.com/syed1israr">Github</Link></li>
         <li><Link to="https://www.instagram.com/syed_isra.r/">Instagram</Link></li>
         <li>
