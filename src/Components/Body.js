@@ -48,7 +48,10 @@ function Body2() {
             />
           ))
         ) : (
-          <h4>No results found</h4>
+          <div className="lala">
+          <h4 className='No_result'>Chef is Busy Coding :)</h4>
+          <h4 >sorry for disappointment, we will get back to you soon💚💚</h4>
+          </div>
         )}
       </div>
     </div>
