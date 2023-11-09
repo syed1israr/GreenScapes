@@ -59,6 +59,6 @@ Dive into an engaging user experience:
 We welcome contributions! Whether you uncover issues or have innovative ideas for improvements, feel free to open an issue or submit a pull request. Let's collaborate to enhance the GreenScapes Restaurants experience!
 
 ## License
-This project is licensed under the MIT License. Your exploration and contributions are valued.
+This project is my Very First practice of React.js. Your exploration and contributions are valued.
 
 Thank you for being part of the GreenScapes Restaurants journey! Immerse yourself in the application and savor the exceptional dining experience we've crafted for you! 🍽️💚
