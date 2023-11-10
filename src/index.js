@@ -18,16 +18,11 @@ import Appstore from './Utils/App_store';
 
 
 const App =()=> {
+  
   useEffect(() => {
-    const card = document.querySelector('.App');
+    const card = document.querySelector(".App");
     gsap.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
   }, []);
- 
-  useEffect(() => {
-    const result=document.querySelector(".No_result")
-    gsap.fromTo(result, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
-  }, []);
-
  
 
   return (  

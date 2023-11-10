@@ -1,4 +1,4 @@
-import './Contact.css'
+import '../styles/Contact.css'
 const contact = () => {
     return (
       <div id="page3">

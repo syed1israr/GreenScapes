@@ -1,4 +1,4 @@
-import './App.css'
+
 import gsap from 'gsap';
 function Cursor() {
     document.addEventListener('mousemove', handleMouseMovement);
