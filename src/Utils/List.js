@@ -189,8 +189,50 @@ export const restaurants = [
     price: "$14",
     time: "50",
   },
-
+    {
+      id: "21",
+      dishName: "Biryani",
+      description: "Spiced, rice, meat",
+      image :"https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmlyeWFuaXxlbnwwfHwwfHx8MA%3D%3D",
+      review: "4.8",
+      price: "$12",
+      time: "55",
+    },
+    {
+      id: "22",
+      dishName: "Naan",
+      description: " Soft, fluffy, bread",
+      image:"https://images.unsplash.com/photo-1586524068358-77d2196875e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmFhbnxlbnwwfHwwfHx8MA%3D%3D",
+      review: "4.6",
+      price: "$2",
+      time: "10",
+    },
+    {
+      id: "23",
+      dishName: "Rice",
+      description: " Simple, versatile, staple",
+      image :"https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UmljZXxlbnwwfHwwfHx8MA%3D%3D",
+      review: "4.7",
+      price: "$1",
+      time: "15",
+    },
     
-    
-    
+      {
+        id: "24",
+        dishName: "Classic Cheeseburger",
+        description: "Juicy, cheesy, beef",
+        image :"https://images.unsplash.com/photo-1646346126502-e8a6547a4399?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2xhc3NpYyUyMENoZWVzZWJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D",
+        review: "4.9",
+        price: "$5",
+        time: "20",
+      },
+      {
+        id: "25",
+        dishName: "Bacon Cheeseburger",
+        description: "Smoky, salty, beef",
+        image :"https://images.unsplash.com/photo-1619290463528-d9b976320d87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmFjb24lMjBDaGVlc2VidXJnZXJ8ZW58MHx8MHx8fDA%3D",
+        review: "4.8",
+        price: "$6",
+        time: "22",
+      }, 
 ];
