@@ -5,7 +5,10 @@ import { restaurants } from '../Utils/List';
 import { useState } from 'react';
 import gsap from 'gsap';
 
+
+
 function Body2() {
+  
   useEffect(() => {
     const result=document.querySelectorAll(".No_result")
     gsap.fromTo(result, 0.5, { x: -120, opacity: 0 }, { x: 0, opacity: 1, delay: 0.5 });

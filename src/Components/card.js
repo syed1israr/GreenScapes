@@ -1,9 +1,16 @@
 import React, {useEffect } from 'react';
 import { TweenMax} from 'gsap';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../Utils/Cart_Slice';
 
 
 const Card = ({ name, description,image ,review,price,time}) => {
-
+  const dispath=useDispatch();
+  function handleadditem(item){
+    dispath(addItem(item))
+    alert("Added to Cart ✔")
+    
+  }
   
   useEffect(() => {
     const card = document.querySelectorAll(".card");
@@ -16,7 +23,7 @@ const Card = ({ name, description,image ,review,price,time}) => {
       <p className='des'>{description}</p>
       <div className='btn2'>
       
-      <button className='btn'>Add To Cart</button>
+      <button className='btn' onClick={handleadditem}>Add To Cart</button>
       </div>
       <div className='Extra'>
       <p>Price:-{price}💰</p>

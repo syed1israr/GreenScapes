@@ -356,3 +356,19 @@ ul{
 .disappointment{
   margin-left: -10px;
 }
+.CartCounter{
+  position: absolute;
+  font-size: 13px;
+  background-color: red;
+  border-radius: 50%;
+  font-family: Roboto;
+  padding: 1px 5px;
+  color: white;
+  margin-top: -15px;
+  margin-left: -10px;
+}
+.UnderConstruction_cart_message{
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}

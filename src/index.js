@@ -9,6 +9,10 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Contact from './Components/Contact';
 import Cursor from './Components/Cursor';
 import About from './Components/About';
+import Cart from './Components/Cart';
+import { Provider } from 'react-redux';
+import Appstore from './Utils/App_store';
+
 
 
 
@@ -27,14 +31,14 @@ const App =()=> {
  
 
   return (  
-   <>
+   < Provider store={Appstore}>
      <div className="App">
      <Cursor />
      <Header />
       <Outlet/>
       <Footer />
     </div>
-    </>
+    </Provider>
   );
 }
 const router = createBrowserRouter([
@@ -54,6 +58,9 @@ const router = createBrowserRouter([
         path :"/About",
         element : <About/>
   
+      },{
+        path :"/Cart",
+        element : <Cart/>
       }
     ]
   }
