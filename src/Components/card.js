@@ -1,7 +1,7 @@
 import React, {useEffect } from 'react';
 import { TweenMax} from 'gsap';
 import { useDispatch } from 'react-redux';
-import { addItem } from '../Utils/Cart_Slice';
+import { addItem,clearCart } from '../Utils/Cart_Slice';
 
 
 const Card = ({ name, description,image ,review,price,time}) => {
@@ -10,6 +10,10 @@ const Card = ({ name, description,image ,review,price,time}) => {
     dispath(addItem(item))
     alert("Added to Cart ✔")
     
+  }
+  function Clearcart(){
+    dispath(clearCart());
+    alert("Cart is Emptied :/")
   }
   
   useEffect(() => {
@@ -24,6 +28,7 @@ const Card = ({ name, description,image ,review,price,time}) => {
       <div className='btn2'>
       
       <button className='btn' onClick={handleadditem}>Add To Cart</button>
+      <button className='btn' onClick={Clearcart}>Clear Cart</button>
       </div>
       <div className='Extra'>
       <p>Price:-{price}💰</p>

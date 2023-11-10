@@ -12,6 +12,10 @@
 .About_p{
     margin-left: 60px;
 }
+.btn2{
+  width: 21vw;
+  gap: 20px;
+}
 
 
 /* Width of the entire scrollbar */

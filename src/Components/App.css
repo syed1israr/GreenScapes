@@ -138,9 +138,9 @@ address {
 .btn {
     background-color: rgb(32, 85, 58);
     border-radius: 5px;
-    margin-left: 40px;
+  
     color: wheat;
-    width: 13vw;
+    width: 7vw;
     height: 5vh;
     box-shadow: 2px 2px 2px 2px #d3d5d3;
     border: 0px;
@@ -156,10 +156,10 @@ address {
 
 
 .btn2 {
-  margin-left: 20px;
+    margin-left: 4px;
     width: 100%;
     display: flex;
-    gap: 30px;
+   justify-content: space-around;
     background-color: #EDEDED;
 }
 
