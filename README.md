@@ -8,12 +8,12 @@ Get started by running the application locally with these simple steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/syed1israr/react_small_project.git
+    git clone https://github.com/syed1israr/GreenScapes.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd react_small_project
+    cd GreenScapes
     ```
 
 3. **Install dependencies:**
@@ -26,7 +26,7 @@ Get started by running the application locally with these simple steps:
     npm start
     ```
    
-The application will be accessible at [http://localhost:3000](http://localhost:3000).
+The application will be accessible at [GreenScapes](https://greenscapes.netlify.app/).
 
 ## Project Structure
 Explore the organized structure of the project, designed for clarity and efficiency:
@@ -56,7 +56,7 @@ Dive into an engaging user experience:
 - **Connect with Us:** The Contact page (Contact.js) extends a warm invitation to get in touch. Explore our contact details and reach out to us seamlessly.
 
 ## Contributing
-We welcome contributions! Whether you uncover issues or have innovative ideas for improvements, feel free to open an issue or submit a pull request. Let's collaborate to enhance the GreenScapes Restaurants experience!
+I welcome contributions! Whether you uncover issues or have innovative ideas for improvements, feel free to open an issue or submit a pull request. Let's collaborate to enhance the GreenScapes Restaurants experience!
 
 ## License
 This project is my Very First practice of React.js. Your exploration and contributions are valued.
