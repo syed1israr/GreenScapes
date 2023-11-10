@@ -368,7 +368,10 @@ ul{
   margin-left: -10px;
 }
 .UnderConstruction_cart_message{
-  width: 100vw;
+  width: 90vw;
+  margin-left: 80px;
+  border-radius: 25px;
   height: 80vh;
   object-fit: cover;
+  box-shadow : 2px 2px 10px 10px #90B77D;
 }
