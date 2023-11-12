@@ -9,46 +9,50 @@ const Card = ({ name, description, image, review, price, time }) => {
   const handleAddItem = (event) => {
     dispatch(addItem({ name, price }));
     setButtonText('Added to Cart');
-    event.target.style.backgroundColor = 'white';
-    event.target.style.color = 'green';
+    event.target.style.backgroundColor = 'bg-green-500';
+    event.target.style.color = 'white';
   };
-  
   const handleClearCart = (event) => {
     dispatch(clearCart());
-    alert('Cart is Emptied :/');
     setButtonText('Add To Cart'); 
     const buttons = document.querySelectorAll('.adder'); 
-    buttons.forEach(button => button.classList.remove('added-to-cart')); 
-    event.target.style.backgroundColor = 'rgb(32, 85, 58)';
-    event.target.style.color = 'wheat';
+    buttons.forEach(buttons => buttons.classList.remove('added-to-cart')); 
+   
   };
-  
-  
-
   useEffect(() => {
     const card = document.querySelectorAll('.card');
     TweenMax.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
   }, []);
 
   return (
-    <div className="card">
-      <img className="ab" src={image} alt="Card_Image" />
-      <h2 className="title  w-30 text-2xl  mx-4">{name}</h2>
-      <p className="des px-5 text-sm  ">{description}</p>
-      <div className="btn2">
-        <button className="btn adder" onClick={handleAddItem}>
+    <div className="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-8   card">
+     <img className="w-full h-48 object-cover object-center"  src={image} alt='zaruri tha' /> 
+    <div className="px-6 py-4">
+      <h2 className="font-bold text-xl mb-2">{name}</h2>
+      <p className="text-gray-700 text-base">{description}</p>
+    </div>
+    <div className="px-6 py-4">
+      <div className="mb-2">
+        <button
+          className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
+          onClick={handleAddItem}
+        >
           {buttonText}
         </button>
-        <button className="btn" onClick={handleClearCart}>
+        <button
+          className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+          onClick={handleClearCart}
+        >
           Clear Cart
         </button>
       </div>
-      <div className="extra">
-        <p>Price:-{price}💰</p>
-        <p>Reviews:-{review}⭐</p>
-        <p>{time}min</p>
+      <div className="text-sm text-gray-600">
+        <p>Price: {price} 💰</p>
+        <p>Reviews: {review} ⭐</p>
+        <p>Delivery: {time} min</p>
       </div>
     </div>
+  </div>
   );
 };
 

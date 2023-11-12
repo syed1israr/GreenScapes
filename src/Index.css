@@ -39,6 +39,7 @@
   left:20px;
 }
 .Minicircle {
+  pointer-events: none;
   width: 25px;
   height: 25px;
   mix-blend-mode:difference;

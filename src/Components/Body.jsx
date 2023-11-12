@@ -58,10 +58,10 @@ useEffect(()=>{
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
       />
-      <button className='btn1' onClick={filterRes}>
+        <button className=" bg-green-500 px-4 py-2  mx-5 my-1 rounded-md shad btn1  hover:bg-red-400" onClick={filterRes}>
         Search
       </button>
-      <button className='btn1' onClick={topRated}>
+      <button className="btn1 px-4 py-2 rounded bg-green-500  hover:bg-red-400" onClick={topRated}>
         Top 4⭐
       </button>
       <div className='Menu_tag'>

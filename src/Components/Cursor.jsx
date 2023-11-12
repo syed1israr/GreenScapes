@@ -8,8 +8,8 @@ function Cursor() {
 
     function updateCirclePosition(x, y) {
       gsap.to('.Minicircle', {
-        x: x + 30,
-        y: y + 20,
+        x: x,
+        y: y,
         duration: 0.3,
         ease: 'power2.out',
       });
