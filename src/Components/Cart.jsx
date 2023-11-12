@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import background from '../Utils/Waiting.png';
+import background from '../Utils/Waiting.png'
 import gsap from 'gsap';
 
 function Cart() {
