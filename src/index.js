@@ -20,16 +20,17 @@ import Appstore from './Utils/App_store';
 const App =()=> {
   
   useEffect(() => {
-    const card = document.querySelector(".App");
-    gsap.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
+    const card = document.querySelector(".test");
+    gsap.to(card, {rotate:27,x:100 ,duration:1})
+
   }, []);
  
 
   return (  
    < Provider store={Appstore}>
-     <div className="App">
+     <div  className="App" > 
      <Cursor />
-     <Header />
+     <Header className= "test" />
       <Outlet/>
       <Footer />
     </div>

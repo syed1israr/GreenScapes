@@ -9,10 +9,30 @@ import gsap from 'gsap';
 
 function Body2() {
   
-  useEffect(() => {
-    const result=document.querySelectorAll(".No_result")
-    gsap.fromTo(result, 0.5, { x: -120, opacity: 0 }, { x: 0, opacity: 1, delay: 0.5 });
-  }, []);
+useEffect(()=>{
+  const buttons = document.querySelectorAll(".btn1");
+  const bar = document.querySelector(".search");
+  gsap.fromTo(
+    buttons,
+    {
+      y: 20,
+      opacity: 0,
+      rotation: 0,
+      scale: 0.5,
+    },
+    {
+      opacity: 1,
+      y: 0,
+      rotation: 360,
+      scale: 1,
+      stagger: 0.2,
+      duration: 1, // Longer duration for a smoother effect
+      ease: "power4.out", // Use a power4 easing function for an elegant feel
+    }
+  );
+    gsap.from(bar,{opacity:0, y: -50, duration:1})
+    gsap.to(bar,{opacity:1, y:2, duration:1})
+},[])
 
   const [searchText, setSearchText] = useState('');
   const [filteredRes, setFilteredRes] = useState(restaurants);
@@ -32,7 +52,7 @@ function Body2() {
   return (
     <div className='body2'>
       <input
-        className='search'
+        className='search opacity-0'
         type="text"
         placeholder="Search Your Favorite Dish!"
         value={searchText}

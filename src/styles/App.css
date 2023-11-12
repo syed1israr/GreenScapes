@@ -46,6 +46,9 @@ input {
     height: 100px;
     
 }
+.nav_tabs{
+  opacity: 0;
+}
 
 
 .Header {
@@ -344,6 +347,7 @@ ul{
   border: 0px ;
   background-color: #ECECEB;
   box-shadow: 2px 2px 2px  #dedec4;
+  opacity: 0;
 }
 .search:hover{
   box-shadow: 2px 7px 7px  #dedec4 ;
