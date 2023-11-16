@@ -50,18 +50,18 @@ useEffect(()=>{
   }
 
   return (
-    <div className='body2'>
+    <div className='body2 '>
       <input
-        className='search opacity-0'
+        className='search opacity-0 mx-5'
         type="text"
         placeholder="Search Your Favorite Dish!"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
       />
-        <button className=" bg-green-500 px-4 py-2  mx-5 my-1 rounded-md shad btn1  hover:bg-red-400" onClick={filterRes}>
+        <button className=" bg-green-500 px-2 py-2  mx-6  my-1 rounded-md shad btn1  hover:bg-red-400" onClick={filterRes}>
         Search
       </button>
-      <button className="btn1 px-4 py-2 rounded bg-green-500  hover:bg-red-400" onClick={topRated}>
+      <button className="btn1 px-2 py-2 rounded bg-green-500  hover:bg-red-400" onClick={topRated}>
         Top 4⭐
       </button>
       <div className='Menu_tag'>

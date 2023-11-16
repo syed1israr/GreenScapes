@@ -12,9 +12,9 @@ function Header() {
 
   }, []);
   return (
-    <div className='flex flex-row justify-between w-full mx-12 bg-white  '>
+    <div className='flex flex-row justify-between  w-full mx-12 bg-white  relative '>
      <Link to="/" ><img src={logo} className='logo mx-14 bg-white  h-48 w-48 ' alt='Logo' /></Link> 
-      <ul className=' mx-14 flex align-middle justify-around bg-white my-5 '>
+      <ul className=' mx-14 flex align-middle justify-around bg-white my-5  re'>
       <li className=' m-2 bg-white  Anim_ref '> <Link to="/Cart">Cart 🛒<span className='CartCounter text-green-200'>{cartItems.length}</span></Link></li>
         <li className=' m-2 bg-white Anim_ref ' ><Link  to="/About" >About📋</Link></li>
         <li className=' m-2 bg-white  Anim_ref'> <Link to="/contact">Contact Us ☎️</Link></li>

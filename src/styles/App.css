@@ -319,3 +319,8 @@ ul{
 * {
   scrollbar-color: #61D79E;
 }
+@media (max-width: 765px) {
+  .Minicircle {
+    display: none;
+  }
+}
