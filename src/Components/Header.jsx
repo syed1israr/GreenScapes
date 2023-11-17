@@ -8,7 +8,7 @@ function Header() {
   const cartItems=useSelector((store)=>store.cart.items);
   useEffect(() => {
     const animation = document.querySelectorAll(".Anim_ref");
-    gsap.to(animation, {y:20,opacity:1, duration:1,stagger:0.5})
+    gsap.to(animation, {y:20,opacity:1, duration:1,stagger:0.5,ease: "bounce"})
 
   }, []);
   return (

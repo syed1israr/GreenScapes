@@ -19,6 +19,7 @@ useEffect(()=>{
       opacity: 0,
       rotation: 0,
       scale: 0.5,
+      borderRadius: "100%"
     },
     {
       opacity: 1,
@@ -28,10 +29,11 @@ useEffect(()=>{
       stagger: 0.2,
       duration: 1, // Longer duration for a smoother effect
       ease: "power4.out", // Use a power4 easing function for an elegant feel
+      borderRadius: "5px"
     }
   );
-    gsap.from(bar,{opacity:0, y: -50, duration:1})
-    gsap.to(bar,{opacity:1, y:2, duration:1})
+    gsap.from(bar,{opacity:0, y: -50, duration:1, borderRadius: "500px" ,backgroundColor : "black"})
+    gsap.to(bar,{opacity:1, y:2, duration:1, borderRadius: "2%",  backgroundColor :"#ECECEB" })
 },[])
 
   const [searchText, setSearchText] = useState('');

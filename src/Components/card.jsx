@@ -21,7 +21,7 @@ const Card = ({ name, description, image, review, price, time }) => {
   };
   useEffect(() => {
     const card = document.querySelectorAll('.card');
-    TweenMax.fromTo(card, 0.5, { y: 100, opacity: 0 }, { y: 0, opacity: 1, delay: 0.5 });
+    TweenMax.fromTo(card, 0.5, { y: 100, opacity: 0, duration: 1, }, { y: 0, opacity: 1, delay: 0.5 ,duration: 1, });
   }, []);
 
   return (
